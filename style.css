@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Raleway|Roboto+Slab|Hind");
+
+body {
+    background-image: url("img/background_1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:block;
+    padding:0;
+    margin-left:auto;
+    margin-right: auto;
+    width:890px;
+
+}
+header {
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    height: 70px;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+#Information-side-1 hr {
+    width:90%;
+}
+#Information-side-1 p {
+    width: 91%;
+    padding-left: 21px;
+    font-family: 'Hind', sans-serif;
+}
+
+#Information-side-1 .longh3 {
+    padding-top: 20px;
+    text-align: left;
+}
+
+#Information-side-1 h3 {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.right {
+    float: right;
+    margin-top: -200px;
+    margin-right: 185px;
+}
+.left {
+    margin-left: 44px;
+    float:left;
+    width:100%;
+}
+.center {
+    margin-left: 44px;
+    padding-top: 54px;
+    clear: both;
+
+}
+#dummy {
+    height: 400px;
+    width:50%;
+    margin:auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+article {
+    margin-left: 10px;
+}
+#Form-side-1 hr {
+    width:45%;
+}
+#Form-side-1 h1 {
+    text-align: center;
+}
+
+.vForm {
+    margin:10px;
+    height:920px;
+}
+label {
+    padding-left:4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+
+}
+input {
+    margin: 4px;
+}
+input[type=text]{
+    width: 19%;
+    font-family: 'Raleway', sans-serif;
+    height:30px;
+    border: none;
+    border-bottom: 2px solid lightblue;
+    background-color: transparent;
+    padding-bottom: 7px;
+}
+
+#imgPrev {
+    max-width:150px;
+    max-height: 147px;
+}
+#Form-side-1 {
+    font-family: 'Raleway', sans-serif;
+}
+::-webkit-input-placeholder :-ms-input-placeholder ::-moz-placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+
+}
+input[type=text]:focus {
+
+    outline: none;
+}
+
+input[type=file]{
+
+    font-family: 'Raleway', sans-serif;
+}
+select {
+    padding: 3px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid lightblue;
+}
+select:focus {
+    outline: solid transparent;
+}
+textarea {
+    width: 86%;
+    height: 150px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+ #Form-side-1 p {
+    font-size:13px;
+    color: red;
+     margin-top: -21px;
+
+     padding-left: 189px
+}
+ #Form-side-1 .errorList {
+     margin-top: -21px;
+     margin-bottom: -7px;
+ }
+#textCount
+{
+    margin-top: -30px;
+    padding-left: 213px;
+}
+ #priceListH3 {
+     text-align: center;
+     margin-right: 8px;
+     margin-top: -21px;
+     padding-bottom: 12px;
+ }
+ #dummyH1 {
+     text-align: center;
+     margin-top: 140px;
+ }
+ #illu {
+     width:45%;
+     padding-left:122px;
+
+ }
+ footer {
+     text-align: center;
+ }
+
+ .padd {
+     margin-right:173px;
+     float: right;
+     margin-top: -289px;
+ }
+ #sbmt {
+     padding: 5px 16px 5px 16px;
+     float: right;
+     margin-top: -67px;
+     margin-right: 50px;
+     font-family: 'Montserrat', sans-serif;
+     background-color: transparent;
+     border-color: aqua;
+     border-radius: 40px;
+     font-size: 16px;
+
+ }
+#sbmt:hover {
+    background-color:rgba(2, 243, 64, 0.5);
+    color:white;
+}
+#sbmt:focus {
+    outline: solid transparent;
+}
+    #sbmt::before {
+    left: 70%;
+    opacity: 0;
+    top: 0;
+}
+
+#sbmt:hover::before {
+    left: 80%;
+    opacity: 1;
+}
+
+
+ .smallText {
+     font-size: 8px;
+     font-style: italic;
+ }
+
+
+
+
+
+
